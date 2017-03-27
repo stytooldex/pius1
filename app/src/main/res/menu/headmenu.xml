@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context="nico.styTool.plus.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/camera"
+        android:title="搜索资源"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/gallery"
+        android:title="百度搜索"
+        android:orderInCategory="100"/>
+    <item 
+        android:id="@+id/ds"
+        android:title="谷歌搜索"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/cancel"
+        android:title="打开链接"
+        android:orderInCategory="100"/>
+</menu>

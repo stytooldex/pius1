@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nico.styTool.plus.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	card_view:cardCornerRadius="2dp"
+	card_view:cardElevation="1dp"
+	card_view:cardUseCompatPadding="true"
+	android:layout_margin="4dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="8dp">
+
+		<TextView
+			android:id="@+id/tv_search_record"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:drawablePadding="10dp"
+			android:gravity="left|center"
+			android:textSize="18sp"/>
+
+	</LinearLayout>
+
+</nico.styTool.plus.CardView>
+

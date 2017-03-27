@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Frin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dex_apktool">复制成功</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#2196F3">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<CheckBox
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="修改UA"
+			android:padding="16dp"
+			android:textIsSelectable="false"
+			android:gravity="right|center"
+			android:textColor="#000000"
+			android:id="@+id/thCheckBox3"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:padding="12dp"
+			android:layout_margin="5dp"
+			android:hint="输入UA"
+			android:background="#00000000"
+			android:id="@+id/thEditText1"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="启用JavaScript"
+		android:padding="16dp"
+		android:layout_margin="4dp"
+		android:gravity="right|center"
+		android:textColor="#000000"
+		android:id="@+id/thCheckBox2"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="接收加载图片"
+		android:padding="16dp"
+		android:layout_margin="4dp"
+		android:gravity="right|center"
+		android:textColor="#000000"
+		android:id="@+id/thCheckBox1"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:padding="12dp"
+			android:layout_margin="5dp"
+			android:hint="自定义主页"
+			android:background="#00000000"
+			android:id="@+id/thEditText2"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

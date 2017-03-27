@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<nico.styTool.plus.SlideBottomPanel
+		android:id="@+id/sbv"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:sbp_title_height_no_display="0dp"
+		app:sbp_panel_height="380dp"
+		app:sbp_background_layout="@layout/main">
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="380dp"
+			android:orientation="vertical"
+			android:background="#2196F3">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="vertical">
+
+				<HorizontalScrollView
+					android:layout_height="wrap_content"
+					android:scrollbars="none"
+					android:layout_width="match_parent">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="42dp"
+						android:orientation="horizontal"
+						android:background="#FF177DD5">
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/ic_chevron_left_black_24dp"
+							android:id="@+id/appbarmiuiImageView1"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/ic_chevron_right_black_24dp"
+							android:id="@+id/appbarmiuiImageView2"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/iml_s"
+							android:id="@+id/appbarmiuiImageView5"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/ic_refresh_black_24dp"
+							android:id="@+id/appbarmiuiImageView3"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/ic_menu_black_24dp"
+							android:id="@+id/appbarmiuiImageView4"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:id="@+id/ahostTextView3"
+							android:padding="14dp"
+							android:src="@drawable/fals"
+							android:scaleType="center"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:src="@drawable/sr"
+							android:scaleType="center"
+							android:id="@+id/ahostImageView1"/>
+
+						<ImageView
+							android:layout_width="48dp"
+							android:layout_weight="1"
+							android:layout_height="48dp"
+							android:padding="14dp"
+							android:id="@+id/ahostTextView1"
+							android:src="@drawable/ser"
+							android:scaleType="center"/>
+
+					</LinearLayout>
+
+				</HorizontalScrollView>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:focusable="true"
+					android:focusableInTouchMode="true"
+					android:orientation="horizontal"
+					android:gravity="center"
+					android:background="#FF177DD5">
+
+					<EditText
+						android:id="@+id/et_search_keyword"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:hint="搜索或网址"
+						android:layout_weight="1.0"
+						android:layout_marginLeft="4dp"
+						android:padding="6dp"
+						android:layout_margin="4dp"
+						android:background="@drawable/cs_b"/>
+
+					<requestFocus/>
+
+					<RelativeLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:gravity="center">
+
+						<ImageView
+							android:id="@+id/btn_search"
+							android:layout_width="32dp"
+							android:layout_height="32dp"
+							android:padding="2dp"
+							android:layout_margin="4dp"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:text="搜索"
+							android:layout_width="wrap_content"
+							android:layout_centerInParent="true"
+							android:textColor="#FFFFFF"/>
+
+					</RelativeLayout>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="center"
+					android:visibility="gone">
+
+					<TextView
+						android:layout_width="match_parent"
+						android:text="ADM视频下载"
+						android:gravity="center"
+						android:visibility="gone"
+						android:layout_height="wrap_content"
+						android:height="36dp"
+						android:textColor="#FFBEBEBE"
+						android:textSize="13sp"
+						android:id="@+id/ahostTextView4"/>
+
+				</LinearLayout>
+
+				<ListView
+					android:id="@+id/lv_history_word"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:dividerHeight="0dp"
+					android:divider="#00000000"
+					android:descendantFocusability="blocksDescendants"
+					android:scrollbars="none"
+					android:background="#00000000"
+					android:padding="4dp"/>
+
+			</LinearLayout>
+
+		</FrameLayout>
+
+	</nico.styTool.plus.SlideBottomPanel>
+
+</LinearLayout>
+

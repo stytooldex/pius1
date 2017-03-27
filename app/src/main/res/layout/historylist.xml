@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nico.styTool.plus.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:foreground="?android:attr/selectableItemBackground"
+	card_view:cardCornerRadius="2dp"
+	card_view:cardElevation="1dp"
+	card_view:cardUseCompatPadding="true"
+	android:layout_margin="4dp">
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="6dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textSize="18dip"
+			android:layout_width="fill_parent"
+			android:id="@+id/Title"
+			android:layout_margin="4dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_below="@id/Title"
+			android:id="@+id/Url"
+			android:layout_marginLeft="4dp"/>
+
+	</RelativeLayout>
+
+</nico.styTool.plus.CardView>
+

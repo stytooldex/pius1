@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<PreferenceScreen  
+    xmlns:android="http://schemas.android.com/apk/res/android">  
+    <PreferenceCategory  
+	android:title="主页">
+        <CheckBoxPreference  
+            android:key="a"  
+	    android:title="自定义UA"/>  
+        <EditTextPreference  
+            android:key="b"  
+            android:dependency="a"
+	    android:title="修改UA"
+	    android:summary="自定义启动UA"/>
+        <EditTextPreference  
+            android:key="c"  
+	    android:title="修改主页"
+	    android:summary="自定义启动网址"
+            android:dialogTitle="默认小米浏览器" />  
+	<CheckBoxPreference
+	    android:key="d"
+	    android:title="启用JavaScript"/>
+	<CheckBoxPreference  
+            android:key="e"  
+	    android:title="接收加载图片"/>
+    </PreferenceCategory>
+</PreferenceScreen>
